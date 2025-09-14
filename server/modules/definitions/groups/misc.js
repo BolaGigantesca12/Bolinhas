@@ -626,7 +626,7 @@ Class.arenaCloser = {
     LABEL: "Arena Closer",
     NAME: "Arena Closer",
     DANGER: 10,
-    SIZE: 34,
+    SIZE: 56,
     COLOR: "yellow",
     UPGRADE_COLOR: "yellow",
     LAYER: 13,
