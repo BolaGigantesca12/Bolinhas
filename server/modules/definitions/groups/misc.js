@@ -627,7 +627,7 @@ Class.arenaCloser = {
     NAME: "Arena Closer",
     DANGER: 10,
     SIZE: 56,
-    LAYER: -1,
+    LAYER: 0,
     BODY: {
         REGEN: 1e5,
         HEALTH: 1e6,
@@ -645,7 +645,7 @@ Class.arenaCloser = {
         POSITION: [14, 10, 1, 0, 0, 0, 0],
         PROPERTIES: {
             SHOOT_SETTINGS: combineStats([g.basic, g.arenaCloser]),
-            TYPE: [ "bullet", { LAYER: 12 } ]
+            TYPE: [ "bullet", { LAYER: 0 } ]
         }
     }]
 };
