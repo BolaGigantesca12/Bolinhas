@@ -2492,7 +2492,7 @@ function animloop() {
             lastPing = global.time;
             // Do rendering speed.
             global.metrics.rendertime = renderTimes;
-            renderTimes = 60;
+            renderTimes = 1e+60;
             // Do update rate.
             global.metrics.updatetime = global.updateTimes;
             global.updateTimes = 450;
