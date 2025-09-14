@@ -627,7 +627,7 @@ Class.arenaCloser = {
     NAME: "Arena Closer",
     DANGER: 10,
     SIZE: 56,
-    LAYER: 13,
+    LAYER: -1,
     BODY: {
         REGEN: 1e5,
         HEALTH: 1e6,
