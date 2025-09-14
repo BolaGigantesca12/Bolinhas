@@ -2495,7 +2495,7 @@ function animloop() {
             renderTimes = 60;
             // Do update rate.
             global.metrics.updatetime = global.updateTimes;
-            global.updateTimes = 0;
+            global.updateTimes = 450;
         }
         global.metrics.lag = global.time - global.player.time;
     }
