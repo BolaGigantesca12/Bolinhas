@@ -633,7 +633,7 @@ Class.arenaCloser = {
         HEALTH: 1e6,
         DENSITY: 30,
         DAMAGE: 1e5,
-        FOV: 10,
+        FOVa: 10,
         SPEED: 8,
     },
     SKILL: skillSet({ rld: 1, dam: 1, pen: 1, str: 1, spd: 1, atk: 1, hlt: 1, shi: 1, rgn: 1, mob: 1 }),
