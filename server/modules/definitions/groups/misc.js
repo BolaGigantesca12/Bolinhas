@@ -627,7 +627,6 @@ Class.arenaCloser = {
     NAME: "Arena Closer",
     DANGER: 10,
     SIZE: 56,
-    UPGRADE_COLOR: "yellow",
     LAYER: 13,
     BODY: {
         REGEN: 1e5,
